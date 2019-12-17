@@ -3,7 +3,11 @@ public class LabradorRetriever extends sportingGroup
 	{
 		public void makeSound()
 		{
+			System.out.println( );
+			
 			System.out.println("bAy!");
+			System.out.println("This is " + name + ". He is a funny Labrador Retriever!");
+
 		}
 		
 		
@@ -11,7 +15,8 @@ public class LabradorRetriever extends sportingGroup
 		public LabradorRetriever()
 		{
 			breed = "Labrador Retriever";
-			group = "Sporting Group Dog";
+			group = "Sporting Dog";
+			name = "Hunter";
 		}
 
 	}

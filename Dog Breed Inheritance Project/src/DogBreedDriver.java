@@ -15,19 +15,59 @@ public class DogBreedDriver
 					breed[7] = new GermanShepherdDog();
 					breed[8] = new IcelandicSheepdog();
 					
-				for(DogBreeds db : breed)
-					{
-						db.workingDogs();
-						db.herdingDogs();
-						db.sportingDogs();
-						db.eat();
-						db.makeSound();
-						db.baby();
-						
-						System.out.println();
-					}
+	//Dog Names
+		
+			// Working Dog Group 
+				GreatDane teddy = new GreatDane();
+					teddy.makeSound();
+					teddy.Dogs();		
+					teddy.eat();
+					teddy.baby();
+				Newfoundland caspian = new Newfoundland();
+					caspian.makeSound();
+					caspian.Dogs();
+					caspian.eat();
+					caspian.baby();
+				SiberianHusky nikki = new SiberianHusky();
+					nikki.makeSound();
+					nikki.Dogs();
+					nikki.eat();
+					nikki.baby();
 					
-
+			// Herding Dog Group
+				BorderCollie chief = new BorderCollie(); 
+					chief.makeSound();
+					chief.Dogs();
+					chief.eat();
+					chief.baby();
+				IcelandicSheepdog nordic = new IcelandicSheepdog();
+					nordic.makeSound();
+					nordic.Dogs();
+					nordic.eat();
+					nordic.baby();
+				GermanShepherdDog george = new GermanShepherdDog();
+					george.makeSound();
+					george.Dogs();
+					george.eat();
+					george.baby();
+					
+			//Sporting Dog Group 
+				LabradorRetriever hunter = new LabradorRetriever();
+					hunter.makeSound();
+					hunter.Dogs();
+					hunter.eat();
+					hunter.baby();
+				GermanShorthairedPointer rose = new GermanShorthairedPointer();
+					rose.makeSound();
+					rose.Dogs();
+					rose.eat();
+					rose.baby();
+				CockerSpaniel hazel = new CockerSpaniel();
+					hazel.makeSound();
+					hazel.Dogs();
+					hazel.eat();
+					hazel.baby();
+					
 			}
 
 	}
